@@ -1,3 +1,23 @@
 body {
-    background-color: blue;
+    background-color: #00bfff;
 }
+
+.beer-mug{              
+    height: 750px;
+    width: auto;
+}
+
+.bubble {
+    width: 100px;
+    height: 100px;
+    background: #00bfff;
+    border-radius: 50%;
+    position: absolute;
+    animation: pop 0.8s ease-out forwards;
+  }
+  
+  @keyframes pop {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(0); opacity: 0; }
+  }
+  
